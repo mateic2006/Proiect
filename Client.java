@@ -34,7 +34,7 @@ public class Client extends Utilizator {
     }
 
     public List<Rezervare> vizualizeazaRezervari() {
-        return new ArrayList<>(rezervari);
+        return rezervari;
     }
     // Add client-specific methods here if needed
 }

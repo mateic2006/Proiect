@@ -8,7 +8,6 @@ public class Rezervare {
     private String stare;
     private Bilet bilet;
     private Plata plata;
-
     public Rezervare(Utilizator utilizator, Zbor zbor) {
         this.utilizator = utilizator;
         this.zbor = zbor;

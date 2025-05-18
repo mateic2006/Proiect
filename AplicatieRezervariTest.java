@@ -44,7 +44,7 @@ public class AplicatieRezervariTest {
         assertEquals("London", rezultate.get(0).getOrasDestinatie());
 
         // Cautare indisponibila
-        List<Zbor> rezultateIndisponibile = user.cautaZboruri("Bucuresti", "Paris");
+        List<Zbor> rezultateIndisponibile = user.cautaZboruri("Bucuresti", "Istanbul");
         assertTrue(rezultateIndisponibile.isEmpty());
     }
     @Test
